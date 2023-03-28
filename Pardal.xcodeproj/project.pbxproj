@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1CE28629D337B800F6307C /* LapTimeTrackStateGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1CE28529D337B800F6307C /* LapTimeTrackStateGateway.swift */; };
+		2C1CE28829D337E000F6307C /* LapTimeStartTrackInteractable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1CE28729D337E000F6307C /* LapTimeStartTrackInteractable.swift */; };
+		2C1CE28A29D337F900F6307C /* LapTimeStopTrackInteractable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1CE28929D337F900F6307C /* LapTimeStopTrackInteractable.swift */; };
+		2C1CE28C29D3382800F6307C /* LapTimeTrackPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1CE28B29D3382800F6307C /* LapTimeTrackPresentable.swift */; };
+		2C1CE28E29D3385A00F6307C /* TimeTrackState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1CE28D29D3385A00F6307C /* TimeTrackState.swift */; };
+		2C1CE29029D33ADE00F6307C /* CronometerGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1CE28F29D33ADE00F6307C /* CronometerGateway.swift */; };
+		2C1CE29229D3584600F6307C /* LapTimePrepareTrackingInteractable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1CE29129D3584600F6307C /* LapTimePrepareTrackingInteractable.swift */; };
+		2CFEE4E429D20AED00A461BF /* PardalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFEE4E329D20AED00A461BF /* PardalApp.swift */; };
+		2CFEE4E629D20AED00A461BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFEE4E529D20AED00A461BF /* ContentView.swift */; };
+		2CFEE4E829D20AEF00A461BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFEE4E729D20AEF00A461BF /* Assets.xcassets */; };
+		2CFEE4EB29D20AEF00A461BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFEE4EA29D20AEF00A461BF /* Preview Assets.xcassets */; };
+		2CFEE4F129D20AEF00A461BF /* Pardal Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2CFEE4F029D20AEF00A461BF /* Pardal Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2CFEE4F629D20AEF00A461BF /* PardalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFEE4F529D20AEF00A461BF /* PardalApp.swift */; };
+		2CFEE4F829D20AEF00A461BF /* LapTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFEE4F729D20AEF00A461BF /* LapTrackView.swift */; };
+		2CFEE4FA29D20AF000A461BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFEE4F929D20AF000A461BF /* Assets.xcassets */; };
+		2CFEE4FD29D20AF000A461BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CFEE4FC29D20AF000A461BF /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CFEE4F229D20AEF00A461BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CFEE4D829D20AED00A461BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CFEE4EF29D20AEF00A461BF;
+			remoteInfo = "Pardal Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2CFEE50329D20AF000A461BF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2CFEE4F129D20AEF00A461BF /* Pardal Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C1CE28529D337B800F6307C /* LapTimeTrackStateGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapTimeTrackStateGateway.swift; sourceTree = "<group>"; };
+		2C1CE28729D337E000F6307C /* LapTimeStartTrackInteractable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapTimeStartTrackInteractable.swift; sourceTree = "<group>"; };
+		2C1CE28929D337F900F6307C /* LapTimeStopTrackInteractable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapTimeStopTrackInteractable.swift; sourceTree = "<group>"; };
+		2C1CE28B29D3382800F6307C /* LapTimeTrackPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapTimeTrackPresentable.swift; sourceTree = "<group>"; };
+		2C1CE28D29D3385A00F6307C /* TimeTrackState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackState.swift; sourceTree = "<group>"; };
+		2C1CE28F29D33ADE00F6307C /* CronometerGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronometerGateway.swift; sourceTree = "<group>"; };
+		2C1CE29129D3584600F6307C /* LapTimePrepareTrackingInteractable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapTimePrepareTrackingInteractable.swift; sourceTree = "<group>"; };
+		2CFEE4E029D20AED00A461BF /* Pardal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pardal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFEE4E329D20AED00A461BF /* PardalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PardalApp.swift; sourceTree = "<group>"; };
+		2CFEE4E529D20AED00A461BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2CFEE4E729D20AEF00A461BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CFEE4EA29D20AEF00A461BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CFEE4F029D20AEF00A461BF /* Pardal Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pardal Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFEE4F529D20AEF00A461BF /* PardalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PardalApp.swift; sourceTree = "<group>"; };
+		2CFEE4F729D20AEF00A461BF /* LapTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapTrackView.swift; sourceTree = "<group>"; };
+		2CFEE4F929D20AF000A461BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CFEE4FC29D20AF000A461BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CFEE4DD29D20AED00A461BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFEE4ED29D20AEF00A461BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C1CE29429D35F1F00F6307C /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				2C1CE28729D337E000F6307C /* LapTimeStartTrackInteractable.swift */,
+				2C1CE28929D337F900F6307C /* LapTimeStopTrackInteractable.swift */,
+				2C1CE29129D3584600F6307C /* LapTimePrepareTrackingInteractable.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		2C1CE29529D35F2700F6307C /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				2C1CE28B29D3382800F6307C /* LapTimeTrackPresentable.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		2C1CE29629D35F3100F6307C /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				2C1CE28529D337B800F6307C /* LapTimeTrackStateGateway.swift */,
+				2C1CE28F29D33ADE00F6307C /* CronometerGateway.swift */,
+			);
+			path = Gateways;
+			sourceTree = "<group>";
+		};
+		2C1CE29729D35F3900F6307C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CFEE4F729D20AEF00A461BF /* LapTrackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C1CE29829D35F4000F6307C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2C1CE28D29D3385A00F6307C /* TimeTrackState.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2C1CE29929D35F5500F6307C /* LapTrack */ = {
+			isa = PBXGroup;
+			children = (
+				2C1CE29829D35F4000F6307C /* Entities */,
+				2C1CE29629D35F3100F6307C /* Gateways */,
+				2C1CE29429D35F1F00F6307C /* Interactors */,
+				2C1CE29529D35F2700F6307C /* Presenters */,
+				2C1CE29729D35F3900F6307C /* Views */,
+			);
+			path = LapTrack;
+			sourceTree = "<group>";
+		};
+		2CFEE4D729D20AED00A461BF = {
+			isa = PBXGroup;
+			children = (
+				2CFEE4E229D20AED00A461BF /* Pardal */,
+				2CFEE4F429D20AEF00A461BF /* Pardal Watch App */,
+				2CFEE4E129D20AED00A461BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CFEE4E129D20AED00A461BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CFEE4E029D20AED00A461BF /* Pardal.app */,
+				2CFEE4F029D20AEF00A461BF /* Pardal Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CFEE4E229D20AED00A461BF /* Pardal */ = {
+			isa = PBXGroup;
+			children = (
+				2CFEE4E329D20AED00A461BF /* PardalApp.swift */,
+				2CFEE4E529D20AED00A461BF /* ContentView.swift */,
+				2CFEE4E729D20AEF00A461BF /* Assets.xcassets */,
+				2CFEE4E929D20AEF00A461BF /* Preview Content */,
+			);
+			path = Pardal;
+			sourceTree = "<group>";
+		};
+		2CFEE4E929D20AEF00A461BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2CFEE4EA29D20AEF00A461BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CFEE4F429D20AEF00A461BF /* Pardal Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				2CFEE4F529D20AEF00A461BF /* PardalApp.swift */,
+				2CFEE4F929D20AF000A461BF /* Assets.xcassets */,
+				2C1CE29929D35F5500F6307C /* LapTrack */,
+				2CFEE4FB29D20AF000A461BF /* Preview Content */,
+			);
+			path = "Pardal Watch App";
+			sourceTree = "<group>";
+		};
+		2CFEE4FB29D20AF000A461BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2CFEE4FC29D20AF000A461BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CFEE4DF29D20AED00A461BF /* Pardal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CFEE50429D20AF000A461BF /* Build configuration list for PBXNativeTarget "Pardal" */;
+			buildPhases = (
+				2CFEE4DC29D20AED00A461BF /* Sources */,
+				2CFEE4DD29D20AED00A461BF /* Frameworks */,
+				2CFEE4DE29D20AED00A461BF /* Resources */,
+				2CFEE50329D20AF000A461BF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CFEE4F329D20AEF00A461BF /* PBXTargetDependency */,
+			);
+			name = Pardal;
+			productName = Pardal;
+			productReference = 2CFEE4E029D20AED00A461BF /* Pardal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CFEE4EF29D20AEF00A461BF /* Pardal Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CFEE50029D20AF000A461BF /* Build configuration list for PBXNativeTarget "Pardal Watch App" */;
+			buildPhases = (
+				2CFEE4EC29D20AEF00A461BF /* Sources */,
+				2CFEE4ED29D20AEF00A461BF /* Frameworks */,
+				2CFEE4EE29D20AEF00A461BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pardal Watch App";
+			productName = "Pardal Watch App";
+			productReference = 2CFEE4F029D20AEF00A461BF /* Pardal Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CFEE4D829D20AED00A461BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2CFEE4DF29D20AED00A461BF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					2CFEE4EF29D20AEF00A461BF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 2CFEE4DB29D20AED00A461BF /* Build configuration list for PBXProject "Pardal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CFEE4D729D20AED00A461BF;
+			productRefGroup = 2CFEE4E129D20AED00A461BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CFEE4DF29D20AED00A461BF /* Pardal */,
+				2CFEE4EF29D20AEF00A461BF /* Pardal Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CFEE4DE29D20AED00A461BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFEE4EB29D20AEF00A461BF /* Preview Assets.xcassets in Resources */,
+				2CFEE4E829D20AEF00A461BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFEE4EE29D20AEF00A461BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFEE4FD29D20AF000A461BF /* Preview Assets.xcassets in Resources */,
+				2CFEE4FA29D20AF000A461BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CFEE4DC29D20AED00A461BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFEE4E629D20AED00A461BF /* ContentView.swift in Sources */,
+				2CFEE4E429D20AED00A461BF /* PardalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFEE4EC29D20AEF00A461BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1CE28C29D3382800F6307C /* LapTimeTrackPresentable.swift in Sources */,
+				2C1CE28629D337B800F6307C /* LapTimeTrackStateGateway.swift in Sources */,
+				2C1CE29029D33ADE00F6307C /* CronometerGateway.swift in Sources */,
+				2C1CE28E29D3385A00F6307C /* TimeTrackState.swift in Sources */,
+				2C1CE29229D3584600F6307C /* LapTimePrepareTrackingInteractable.swift in Sources */,
+				2CFEE4F829D20AEF00A461BF /* LapTrackView.swift in Sources */,
+				2CFEE4F629D20AEF00A461BF /* PardalApp.swift in Sources */,
+				2C1CE28829D337E000F6307C /* LapTimeStartTrackInteractable.swift in Sources */,
+				2C1CE28A29D337F900F6307C /* LapTimeStopTrackInteractable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CFEE4F329D20AEF00A461BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CFEE4EF29D20AEF00A461BF /* Pardal Watch App */;
+			targetProxy = 2CFEE4F229D20AEF00A461BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CFEE4FE29D20AF000A461BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CFEE4FF29D20AF000A461BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2CFEE50129D20AF000A461BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pardal Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2729VXDM4D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pardal;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.ronanrodrigo.Pardal;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ronanrodrigo.Pardal.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		2CFEE50229D20AF000A461BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pardal Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2729VXDM4D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pardal;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.ronanrodrigo.Pardal;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ronanrodrigo.Pardal.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		2CFEE50529D20AF000A461BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pardal/Preview Content\"";
+				DEVELOPMENT_TEAM = 2729VXDM4D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pardal;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ronanrodrigo.Pardal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CFEE50629D20AF000A461BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pardal/Preview Content\"";
+				DEVELOPMENT_TEAM = 2729VXDM4D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pardal;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.ronanrodrigo.Pardal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CFEE4DB29D20AED00A461BF /* Build configuration list for PBXProject "Pardal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFEE4FE29D20AF000A461BF /* Debug */,
+				2CFEE4FF29D20AF000A461BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CFEE50029D20AF000A461BF /* Build configuration list for PBXNativeTarget "Pardal Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFEE50129D20AF000A461BF /* Debug */,
+				2CFEE50229D20AF000A461BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CFEE50429D20AF000A461BF /* Build configuration list for PBXNativeTarget "Pardal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFEE50529D20AF000A461BF /* Debug */,
+				2CFEE50629D20AF000A461BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CFEE4D829D20AED00A461BF /* Project object */;
+}
